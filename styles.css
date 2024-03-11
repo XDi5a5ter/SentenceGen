@@ -1,0 +1,41 @@
+body {
+    font-family: 'Lato', sans-serif; /* Aplicar a fonte Lato */
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.quote-container {
+    /* Outros estilos */
+    display: flex;
+    align-items: center; /* Centralizar verticalmente */
+    justify-content: center; /* Centralizar horizontalmente */
+    min-height: 70vh; /* Definir uma altura mínima para centralizar verticalmente */
+}
+
+.quote-text {
+    font-size: 2em;
+    transition: color 0.3s ease; /* Adicionar transição para a mudança de cor */
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.quote-container {
+    /* Outros estilos */
+    transition: background-color 0.3s ease; /* Adicionar transição para a mudança de cor de fundo */
+}
